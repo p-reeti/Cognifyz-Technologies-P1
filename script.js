@@ -3,7 +3,7 @@ const contactBtn = document.querySelector('.btn-contact');
 
 contactBtn.addEventListener('click', () => {
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-    contactBtn.style.backgroundColor = randomColor; // Correct way to change background color
+    contactBtn.style.backgroundColor = randomColor; 
 });
 
 const changeBgBtn = document.getElementById('change-bg-btn');
